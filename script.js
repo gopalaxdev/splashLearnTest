@@ -29,7 +29,7 @@ function createImageCard(imageDetails){
      <img class="images" src=${imageDetails.thumbnailUrl} alt=${imageDetails.title} data-src=${imageDetails.url} style="width:200px;height:200px">
    </div>
    <div class="image__box__back">
-     <p> ${imageDetails.title}</p>
+     <p class="dummy__text"> ${imageDetails.title}</p>
      <button class='delete__button' id=${imageDetails.id}> Delete </button>
    </div>
  </div>`;
